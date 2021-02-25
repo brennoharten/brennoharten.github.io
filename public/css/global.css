@@ -3,14 +3,32 @@
     font-weight: 500;
     padding-right: 1.4rem;
     padding-left: 1.4rem;
+}
+
+.first-button{
     background-color: var(--fouth);
     border-color: var(--fouth);
     color: white;
 }
 
-.button:hover {
+.first-button:hover {
     border-color: var(--third);
     color: var(--third);
     background-color: white;
 
 }
+
+.second-button {
+    border-color: var(--fouth);
+    color: var(--fouth);
+    background-color: white;
+}
+
+.second-button:hover {
+
+    border-color: var(--third);
+    color: white;
+    background-color: var(--third);
+}
+
+
