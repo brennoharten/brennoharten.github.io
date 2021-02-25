@@ -8,14 +8,14 @@
 
 @media (max-width: 767.98px) {
     #header .navbar-brand img {
-        max-width: 250px;
+        max-width: 150px;
     }
 }
 
 /* max witdh medium */
 @media (max-width: 991.98px) {
     #header .navbar-brand img {
-        max-width: 250px;
+        max-width: 350px;
     }
     #header .navbar-collapse {
         width: 100%;
