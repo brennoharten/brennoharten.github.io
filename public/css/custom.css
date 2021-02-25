@@ -44,7 +44,21 @@ html {
     background-color: rgba(136, 133, 133, 0.39);
     background: linear-gradient(to right, transparent 30%, rgba(136, 133, 133, 0.39));
     background-size: contain;
+    border-radius: 10px;
+}
+
+#about  {
+
+    background-color: var(--secondary);
+    /* background: linear-gradient(to left, transparent 1%, var(--secondary)); */
+    padding-top: 25px;
+    background-size:contain;
+    border-radius: 10px;
     
+}
+
+.me {
+    border-radius: 20px;
 }
 
 #slider h1 {

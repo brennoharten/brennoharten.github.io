@@ -1,3 +1,20 @@
+h1,h2,g3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: white;
+    font-weight: 400;
+}
+
+.block{
+    margin-bottom: 75px ;
+}
+
 .button {
     text-transform: lowercase;
     font-weight: 500;
