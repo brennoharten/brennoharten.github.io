@@ -1,0 +1,16 @@
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+    background-color: var(--fouth);
+    border-color: var(--fouth);
+    color: white;
+}
+
+.button:hover {
+    border-color: var(--third);
+    color: var(--third);
+    background-color: white;
+
+}

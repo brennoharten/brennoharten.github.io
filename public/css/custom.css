@@ -26,3 +26,32 @@ html {
     border-bottom:  solid 4px var(--secondary);
     color: var(--secondary);
 }
+
+#slider  {
+
+    background-color: rgba(136, 133, 133, 0.39);
+    background: linear-gradient(to right, transparent 30%, rgba(136, 133, 133, 0.39));
+    background-size: contain;
+    
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+#slider h6 {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    
+}
+
+/* Degradê  */
+.photo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 300px;
+	/* -webkit-mask-image: linear-gradient(to left, transparent 0.2%, black 100%); */
+}
