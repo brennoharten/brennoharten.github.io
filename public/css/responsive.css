@@ -30,14 +30,14 @@
 
 @media (max-width: 540px) {
     #header .navbar-brand img {
-        max-width: 70px;
+        max-width: 30px;
     }
 }
 
 /* max witdh medium */
 @media (max-width: 991.98px) {
     #header .navbar-brand img {
-        max-width: 350px;
+        max-width: 270px;
     }
     #header .navbar-collapse {
         width: 100%;
