@@ -4,20 +4,24 @@ html {
 }
 
 #header {
+    margin-top: 20px;
     width: 100%;
-    background-color: var(--primary);
+    background-color: var(--fourth);
     transition: background ease-out 0.2s;
 }
 
 #header .logo{
-    width: 15%;
-    height: 15%;
+    width: 13%;
+    height: 13%;
 }
 
 #header.active {
     position: fixed;
-    background: #fff;
-    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    background: var(--fourth);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
     z-index: 9999;
 }
 
@@ -88,4 +92,39 @@ html {
     width: 300px;
     height: 300px;
 	/* -webkit-mask-image: linear-gradient(to left, transparent 0.2%, black 100%); */
+}
+
+#projects a.project {
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+
+#projects a.project:hover {
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+#projects p {
+    color: var(--dark);
+}
+
+#projects a.project .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+
+#projects a.project .img-container img {
+    max-height: 130px;
+
 }

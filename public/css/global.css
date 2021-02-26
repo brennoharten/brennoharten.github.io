@@ -11,6 +11,19 @@ h1,h2,g3,h4,h5,h6 {
     font-weight: 400;
 }
 
+.subtitle2 {
+    color: var(--dark);
+    font-weight: 400;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
 .block{
     margin-bottom: 75px ;
 }
@@ -23,8 +36,8 @@ h1,h2,g3,h4,h5,h6 {
 }
 
 .first-button{
-    background-color: var(--fouth);
-    border-color: var(--fouth);
+    background-color: var(--fourth);
+    border-color: var(--fourth);
     color: white;
 }
 
@@ -36,8 +49,8 @@ h1,h2,g3,h4,h5,h6 {
 }
 
 .second-button {
-    border-color: var(--fouth);
-    color: var(--fouth);
+    border-color: var(--fourth);
+    color: var(--fourth);
     background-color: white;
 }
 

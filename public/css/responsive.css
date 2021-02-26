@@ -53,3 +53,13 @@
         margin-right: 25px;
     }
 }
+
+@media (max-width: 767.98px) {
+    #projects a.project .img-container{
+        height: 120px;
+    }
+
+    #projects a.project .img-container img{
+        max-height: 120px;
+    }
+}
