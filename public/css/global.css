@@ -54,6 +54,7 @@ a:hover {
     background-color: white;
 }
 
+
 .second-button:hover {
 
     border-color: var(--third);
@@ -61,4 +62,9 @@ a:hover {
     background-color: var(--third);
 }
 
+
+.owl-theme .owl-dots .owl-dots.active span,
+.owl-theme .owl-dots .owl-dots:hover span {
+    background-color: var(--third);
+}
 
