@@ -205,6 +205,7 @@ html {
     align-items: center;
     justify-content: center;
     padding: 120px 30px;
+    margin-bottom: 20px;
 
 }
 
@@ -216,4 +217,45 @@ html {
     max-width: 120px;
 }
 
+#contact .social img {
+    max-width: 50px;
+    max-height: 50px;
+    
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contact ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contact ul li:first-child{
+    margin-left: 0;
+}
+
+
+#contact ul li a {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+
+#contact ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: white;
+    transform: scale(1.2);
+}
 
