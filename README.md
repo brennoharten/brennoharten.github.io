@@ -1,2 +1,2 @@
 # brennoharten.github.io
-Who am i
+This is my person website, where I tell a little about myself and what I do 
