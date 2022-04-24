@@ -1,0 +1,71 @@
+h1,h2,g3,h4,h5,h6 {
+    font-weight: 700;
+}
+
+.title {
+    text-transform: uppercase;
+    color: white;
+}
+
+.subtitle {
+    color: white;
+    font-weight: 400;
+}
+
+.subtitle2 {
+    color: var(--dark);
+    font-weight: 400;
+}
+
+a {
+    color: var(--primary);
+}
+
+a:hover {
+    color: var(--secondary);
+}
+
+.block{
+    margin-bottom: 75px ;
+}
+
+.button {
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-right: 1.4rem;
+    padding-left: 1.4rem;
+}
+
+.first-button{
+    background-color: var(--fourth);
+    border-color: white;
+    color: white;
+}
+
+.first-button:hover {
+    border-color: var(--third);
+    color: var(--third);
+    background-color: white;
+
+}
+
+.second-button {
+    border-color: var(--fourth);
+    color: var(--fourth);
+    background-color: white;
+}
+
+
+.second-button:hover {
+
+    border-color: var(--third);
+    color: white;
+    background-color: white;
+}
+
+
+.owl-theme .owl-dots .owl-dots.active span,
+.owl-theme .owl-dots .owl-dots:hover span {
+    background-color: var(--third);
+}
+

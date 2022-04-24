@@ -1,0 +1,271 @@
+body, 
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+#header {
+    margin-top: 20px;
+    width: 100%;
+    background-color: var(--fourth);
+    transition: background ease-out 0.2s;
+}
+
+#header .logo{
+    width: 13%;
+    height: 13%;
+}
+
+#header.active {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    background: var(--fourth);
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.6);
+    z-index: 9999;
+}
+
+#header .navbar-toggler{
+    color: white;
+    /* background-color: white; */
+    border-color: white;
+    border-width: 0.1rem;
+    color-adjust: white;
+}
+
+#header .navbar-collapse {
+    width: auto;
+}
+
+#header .nav-link {
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 0;
+    padding-right: 0;
+    color: white;
+    border-bottom: solid 4px transparent;
+}
+
+#header .nav-link:hover {
+    border-bottom:  solid 4px var(--secondary);
+    color: var(--secondary);
+}
+
+#slider  {
+    background-size: contain;
+    background-image: url(../img/icons/pc.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* border-radius: 10px; */
+}
+
+#about  {
+
+    background-color: var(--secondary);
+    /* background: linear-gradient(to left, transparent 1%, var(--secondary)); */
+    padding-top: 25px;
+    background-size:contain;
+    /* border-radius: 10px; */
+    
+}
+
+.me {
+    border-radius: 20px;
+}
+
+#slider h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    
+}
+
+#slider h6 {
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    
+}
+
+/* Degradê  */
+.photo {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 300px;
+    height: 300px;
+	/* -webkit-mask-image: linear-gradient(to left, transparent 0.2%, black 100%); */
+}
+
+#skills a.link-skill {
+    padding: 0 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px var(--light);
+    height: 100px;
+    transition: all ease-out 0.2s;
+    /* border-radius: 20px; */
+
+}
+
+#skills a.link-skill img {
+    filter: grayscale(100%);
+    max-height: 80px;
+    width: 100%;
+    opacity: 0.6;
+}
+
+#skills a.link-skill:hover img {
+    filter: none;
+    opacity: 1;
+}
+
+#skills a.link-skill:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.12);
+}
+
+#skills .skills-text {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: var(--light);
+    border-radius: 5px;
+}
+
+#skills .skills-text .image {
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    margin-left: -70px;
+    color: #b4b4b4;
+    font-size: 24px;
+    line-height: 26px;
+    
+}
+
+#skills .skills-text .image h2 {
+    text-transform: uppercase;
+    color: black; 
+}
+
+
+#skills .skills-text .image img {
+    max-height:170px;
+    margin-right: 10px;   
+}
+
+
+
+#projects a.project {
+    display: block;
+    background: var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+
+#projects a.project:hover {
+    background: white;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.05);
+}
+
+#projects p {
+    color: var(--dark);
+}
+
+#projects a.project .img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+}
+
+#projects a.project .img-container img {
+    max-height: 130px;
+
+}
+
+
+#contact .email {
+    border-radius: 5px;
+    background-color: var(--fourth);
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+    margin-bottom: 20px;
+
+}
+#slider .apresent {
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 120px 30px;
+
+}
+
+#contact .email img {
+    position: absolute;
+    left: 30px;
+    top: -30px;
+    max-height: 120px;
+    max-width: 120px;
+}
+
+#contact .social img {
+    max-width: 50px;
+    max-height: 50px;
+    
+}
+
+#contact ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#contact ul li {
+    display: flex;
+    list-style-type: none;
+    margin-left: 25px;
+}
+
+#contact ul li:first-child{
+    margin-left: 0;
+}
+
+
+#contact ul li a {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    transition: all ease-out 0.2s;
+}
+
+
+#contact ul li a:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.12);
+    background-color: white;
+    transform: scale(1.2);
+}
+
